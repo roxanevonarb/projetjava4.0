@@ -73,4 +73,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <properties>
+  	<javadocExecutable>C:\Program Files\Java\jdk-10.0.1\bin\javadoc.exe</javadocExecutable>
+  </properties>
 </project>
