@@ -17,12 +17,12 @@ import showboard.Tile;
 
 	public class Showboarddemo extends Observable implements Runnable {
 
-////////////////////////////////taille de la fenêtre/////////////////////////////////
+////////////////////////////////taille de la fenÃªtre/////////////////////////////////
 		
 		
-    public static final int        width               = 10;
+    public static final int        width               = 6;
 
-    public static final int        height              = 10;
+    public static final int        height              = 6;
 
     private static final int       timeLoop            = 300;
 
@@ -30,7 +30,7 @@ import showboard.Tile;
 
     private static final int       widthBetweenFrame   = 20;
 
-///////////////////////////////une seul fenêtre//////////////////////////////////////  
+///////////////////////////////une seul fenÃªtre//////////////////////////////////////  
   
     private static final Rectangle closeView           = new Rectangle(5, 5, width - 5, height - 5);
     
@@ -70,7 +70,7 @@ import showboard.Tile;
 
         SwingUtilities.invokeLater(this);
     }
-/////////////////////////////////////////fermer la fenêtre /////////////////////////////////////////////
+/////////////////////////////////////////fermer la fenÃªtre /////////////////////////////////////////////
  
     @Override
     public final void run() {
