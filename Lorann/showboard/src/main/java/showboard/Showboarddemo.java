@@ -72,7 +72,7 @@ import showboard.Tile;
     }
 /////////////////////////////////////////fermer la fenêtre /////////////////////////////////////////////
  
-    @Override
+  
     public final void run() {
         final BoardFrame frameCloseView = new BoardFrame("Close view");
         frameCloseView.setDimension(new Dimension(width, height));
@@ -122,4 +122,5 @@ import showboard.Tile;
 
         frame.setVisible(true);
     }
+		/////////////////////////////////////////rendre le tout visible/////////////////////////////////////
 }
